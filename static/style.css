@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Karantina&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Karantina&display=swap');
+
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+     
+
+}
+#logo{
+    font-family: 'Karantina', cursive;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 37px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 42px;
+    
+}
+
+
+#navbar{
+    background-color: #94b3c5;
+    padding: 20px;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+     
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{ 
+    font-family: 'Karantina', cursive;
+    color: black;
+    font-size: 2.3em;
+   text-decoration: none;
+    padding: 13px 35px;
+}
+#navbar li a:hover{
+    color: whitesmoke;  
+}
+#introSection{
+    color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    font-size: 56px;
+    font-family: 'Hind Siliguri', sans-serif;
+    align-items: center;
+    background: center/cover no-repeat url("/static/breakreate-A_IfOgYEQU4-unsplash.jpg") ;
+    height: 425px;
+    
+}
+#introSection div.small{
+    font-family: 'Hind Siliguri', sans-serif;
+    color:whitesmoke;
+    font-size: 62px;
+    padding: 80px;
+}
+#missionSection {
+    background-color:lightgoldenrodyellow;
+    height: 335px;; 
+    width: 100%;
+    margin: auto;
+    padding-left: 20px;
+    
+}
+
+#missionSection h2{
+    font-size: 36px;
+    font-family: 'Hind Siliguri', sans-serif;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.card{
+    display: inline-block;
+    
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 29%;
+    margin: 23px 22px;
+    height: 209px;
+}
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 4px;
+}
+.card-img img{
+    height: inherit; 
+}
+.card-content{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#sponsorsSection{
+    height: 300px;
+    background-color: #fbd6d6c7;
+}
+
+#sponsorsSection h2{
+    text-align: center;
+    padding-top: 13px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 32px;
+
+}
+#sponsors{
+    height: 120px;
+    margin: auto;
+}
+
+.spImage{
+    height: 137px;
+    margin: 83px;
+    
+}
+
+   
+#footer{
+    color: lightgrey;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Hind Siliguri', sans-serif;
+    
+    background-color: black;
+    height: 45px;
+    padding-top: 13px;
+    font-size: 15px;
+}
