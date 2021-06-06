@@ -5,7 +5,7 @@ const app = express();
 const mongoose = require('mongoose');
 const bodyparser = require("body-parser");
 mongoose.connect('mongodb://localhost/new6contactDance', {useNewUrlParser: true, useUnifiedTopology: true});
-const port = 8000; 
+const port = process.env.PORT || 8000; 
 
 // define mongoose schema 
 const contactSchema = new mongoose.Schema({
